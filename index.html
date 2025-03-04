@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Ahmed Hesham</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/css/steller.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testmonial">Testmonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+  <div>
+    <input type="checkbox" id="darkModeToggle" >
+                        <label for="darkModeToggle" >
+                            <svg class = moon  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.0672 11.8568L20.4253 11.469L21.0672 11.8568ZM12.1432 2.93276L11.7553 2.29085V2.29085L12.1432 2.93276ZM21.25 12C21.25 17.1086 17.1086 21.25 12 21.25V22.75C17.9371 22.75 22.75 17.9371 22.75 12H21.25ZM12 21.25C6.89137 21.25 2.75 17.1086 2.75 12H1.25C1.25 17.9371 6.06294 22.75 12 22.75V21.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75V1.25C6.06294 1.25 1.25 6.06294 1.25 12H2.75ZM15.5 14.25C12.3244 14.25 9.75 11.6756 9.75 8.5H8.25C8.25 12.5041 11.4959 15.75 15.5 15.75V14.25ZM20.4253 11.469C19.4172 13.1373 17.5882 14.25 15.5 14.25V15.75C18.1349 15.75 20.4407 14.3439 21.7092 12.2447L20.4253 11.469ZM9.75 8.5C9.75 6.41182 10.8627 4.5828 12.531 3.57467L11.7553 2.29085C9.65609 3.5593 8.25 5.86509 8.25 8.5H9.75ZM12 2.75C11.9115 2.75 11.8077 2.71008 11.7324 2.63168C11.6686 2.56527 11.6538 2.50244 11.6503 2.47703C11.6461 2.44587 11.6482 2.35557 11.7553 2.29085L12.531 3.57467C13.0342 3.27065 13.196 2.71398 13.1368 2.27627C13.0754 1.82126 12.7166 1.25 12 1.25V2.75ZM21.7092 12.2447C21.6444 12.3518 21.5541 12.3539 21.523 12.3497C21.4976 12.3462 21.4347 12.3314 21.3683 12.2676C21.2899 12.1923 21.25 12.0885 21.25 12H22.75C22.75 11.2834 22.1787 10.9246 21.7237 10.8632C21.286 10.804 20.7293 10.9658 20.4253 11.469L21.7092 12.2447Z" fill="#1C274C"/>
+                            </svg>
+                            <svg class=sun  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="6" stroke="#1C274C" stroke-width="1.5"/>
+                                <path d="M12 2V3" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M12 21V22" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M22 12L21 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M3 12L2 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M19.0708 4.92969L18.678 5.32252" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M5.32178 18.6777L4.92894 19.0706" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M19.0708 19.0703L18.678 18.6775" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                                <path d="M5.32178 5.32227L4.92894 4.92943" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </label>      
+                        <div class="background"></div>
+  </div>
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">Hi,I'm</h6>
+                <h6 class="title">Ahmed Hesham</h6>
+                <p>Full-Stack .NET Developer</p>
+
+                <div class="buttons pt-3">
+                   <button class="btn btn-primary rounded" onclick="window.open('https://your-link-here.com', '_blank')">HIRE ME</button>
+                   <button class="btn btn-dark rounded" onclick="window.open('https://your-link-here.com', '_blank')">DOWNLOAD CV</button>
+                </div>      
+
+                <div class="socials mt-4">
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                </div>
+            </div>              
+            <div class="img-holder">
+                <img src="assets/imgs/man.svg" alt="">
+            </div>      
+        </div>  
+
+        <!-- Header-widget -->
+        <div class="widget">
+            <div class="widget-item">
+                <h2>0</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div class="widget-item">
+                <h2>2</h2>
+                <p>Project Completed</p>
+            </div>
+        </div>
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/net.png" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">Ahmed Hesham</h6>
+                    <p class="subtitle">Full-Stack .NET Developer</p>
+                    <p>I am a skilled Full-Stack .NET Developer with extensive experience in HTML, CSS, JavaScript, Bootstrap, jQuery, and React. I also have foundational knowledge in AI and a background working with VoIP systems.</p>
+                    <p>Currently, I am deepening my expertise by studying advanced web development, continuously expanding my skill set to deliver innovative and efficient solutions.</p>
+                    <button class="btn btn-primary rounded mt-3" onclick="window.open('https://your-link-here.com', '_blank')">
+                        Download CV
+                      </button>                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Service</h6>
+            <h6 class="section-title mb-4">What I Do</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <h5>Web Development</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-pencil"></i>
+                            <h5>Web Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-mobile"></i>
+                            <h5>App Development</h5>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Sectoin -->
+
+    <!-- Skills section -->
+    <section class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Skills</h6>
+            <h6 class="section-title mb-4">Why Choose me</h6>
+            <p class="mb-5 pb-4">I’m a full-stack .NET developer with a passion for building real, impactful solutions—not just writing code. I love tackling challenges, whether it's optimizing backend performance, creating smooth front-end experiences, or integrating AI into practical applications.</p>
+
+            <div class="row text-left">
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Web Development</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Web Design</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">App Development</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">IT</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- End of Skills sections -->
+
+    <!-- Portfolio section -->
+    <!-- <section id="portfolio" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Portfolio</h6>
+            <h6 class="section-title mb-4">Check My Wonderful Works</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-1.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-3.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-4.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-5.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/folio-6.jpg" alt="">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>                              
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End of portfolio section -->
+
+    <!-- Testmonial Section -->
+    <!-- <section id="testmonial" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Testmonial</h6>
+            <h6 class="section-title mb-4">What People Say About Me</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/avatar-1.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">Emma Re</h1>
+                                <h1 class="subtitle">Graphic Designer</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/avatar-2.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">James Bert</h1>
+                                <h1 class="subtitle">Web Designer</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testmonial-card border">
+                            <div class="card-body">
+                                <img src="assets/imgs/avatar-3.jpg" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates in enim vel amet?</p>
+                                <h1 class="title">Michael Abra</h1>
+                                <h1 class="subtitle">Web Developer</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End of testmonial section -->
+
+    <!-- Blog Section -->
+    <!-- <section id="blog" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">My Blogs</h6>
+            <h6 class="section-title mb-4">Latest News</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="row text-left">
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Designe for Everyone</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
+                            <a href="javascript:void(0)">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/blog-2.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Layouts</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
+                            <a href="javascript:void(0)">Read More..</a>
+                        </div>
+                    </div>
+                </div> --> -->
+                <!-- <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/blog-3.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap Framework</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p>
+                            <a href="javascript:void(0)">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Hire me section -->
+    <!-- <section class="bg-gray p-0 section">
+        <div class="container">
+            <div class="card bg-primary">
+                <div class="card-body text-light">
+                    <div class="row align-items-center">
+                        <div class="col-sm-9 text-center text-sm-left">
+                            <h5 class="mt-3">Hire Me For Your Project</h5>
+                            <p class="mb-3">Accusantium labore nostrum similique quisquam.</p>
+                        </div>
+                        <div class="col-sm-3 text-center text-sm-right">
+                            <button class="btn btn-light rounded">Hire Me!</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>       -->
+    <!-- End od Hire me section. -->
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle">Contact</h6>
+            <h6 class="section-title mb-4">Get In Touch With Me</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+
+            <!-- <div class="contact text-left">
+                <div class="form">
+                    <h6 class="subtitle">Available 24/7</h6>
+                    <h6 class="section-title mb-4">Get In Touch</h6>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
+                    </form>
+                </div> -->
+                <!-- <div class="contact-infos">
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Location</h5>
+                            <p> 12345 Fake ST NoWhere AB Country</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>(123) 456-7890</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email Address</h5>
+                            <p>info@website.com</p>
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+        </div>        -->
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                </div>
+                <div class="col-sm-6">
+                    <div class="socials">
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- End of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
+    <script>
+        // const darkModeToggle = document.getElementById('darkModeToggle');
+        
+        // // Check localStorage on page load
+        // if (localStorage.getItem('darkMode') === 'enabled') {
+        //     document.body.classList.add('dark-mode');
+        //     darkModeToggle.setAttribute('aria-pressed', 'true');
+        //     darkModeToggle.classList.add('theme-toggle--toggled');
+        // } else {
+        //     darkModeToggle.setAttribute('aria-pressed', 'false');
+        // }
+        
+        // Updated event listener for proper animation
+        darkModeToggle.addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+            // const isDarkModeEnabled = document.body.classList.contains('dark-mode');
+            // localStorage.setItem('darkMode', isDarkModeEnabled ? 'enabled' : 'disabled');
+            // darkModeToggle.setAttribute('aria-pressed', isDarkModeEnabled ? 'true' : 'false');
+            // darkModeToggle.classList.toggle('theme-toggle--toggled', isDarkModeEnabled);
+        });
+    </script>
+</body>
+</html>
