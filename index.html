@@ -19,9 +19,9 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+    
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
@@ -30,42 +30,31 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#service">Service</a>
-                    </li>                   
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testmonial">Testmonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
-        </div>  
-  <div>
-    <input type="checkbox" id="darkModeToggle" >
-                        <label for="darkModeToggle" >
-                            <svg class = moon  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.0672 11.8568L20.4253 11.469L21.0672 11.8568ZM12.1432 2.93276L11.7553 2.29085V2.29085L12.1432 2.93276ZM21.25 12C21.25 17.1086 17.1086 21.25 12 21.25V22.75C17.9371 22.75 22.75 17.9371 22.75 12H21.25ZM12 21.25C6.89137 21.25 2.75 17.1086 2.75 12H1.25C1.25 17.9371 6.06294 22.75 12 22.75V21.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75V1.25C6.06294 1.25 1.25 6.06294 1.25 12H2.75ZM15.5 14.25C12.3244 14.25 9.75 11.6756 9.75 8.5H8.25C8.25 12.5041 11.4959 15.75 15.5 15.75V14.25ZM20.4253 11.469C19.4172 13.1373 17.5882 14.25 15.5 14.25V15.75C18.1349 15.75 20.4407 14.3439 21.7092 12.2447L20.4253 11.469ZM9.75 8.5C9.75 6.41182 10.8627 4.5828 12.531 3.57467L11.7553 2.29085C9.65609 3.5593 8.25 5.86509 8.25 8.5H9.75ZM12 2.75C11.9115 2.75 11.8077 2.71008 11.7324 2.63168C11.6686 2.56527 11.6538 2.50244 11.6503 2.47703C11.6461 2.44587 11.6482 2.35557 11.7553 2.29085L12.531 3.57467C13.0342 3.27065 13.196 2.71398 13.1368 2.27627C13.0754 1.82126 12.7166 1.25 12 1.25V2.75ZM21.7092 12.2447C21.6444 12.3518 21.5541 12.3539 21.523 12.3497C21.4976 12.3462 21.4347 12.3314 21.3683 12.2676C21.2899 12.1923 21.25 12.0885 21.25 12H22.75C22.75 11.2834 22.1787 10.9246 21.7237 10.8632C21.286 10.804 20.7293 10.9658 20.4253 11.469L21.7092 12.2447Z" fill="#1C274C"/>
-                            </svg>
-                            <svg class=sun  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="6" stroke="#1C274C" stroke-width="1.5"/>
-                                <path d="M12 2V3" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
-                                <path d="M12 21V22" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
-                                <path d="M22 12L21 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
-                                <path d="M3 12L2 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
-                                <path d="M19.0708 4.92969L18.678 5.32252" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
-                                <path d="M5.32178 18.6777L4.92894 19.0706" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
-                                <path d="M19.0708 19.0703L18.678 18.6775" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
-                                <path d="M5.32178 5.32227L4.92894 4.92943" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
-                            </svg>
-                        </label>      
-                        <div class="background"></div>
-  </div>
+    
+            <!-- Dark Mode Toggle  -->
+            <div class="ms-auto d-flex align-items-center mt-n2">
+                <input type="checkbox" id="darkModeToggle">
+                <label for="darkModeToggle">
+                    <svg class="moon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.0672 11.8568L20.4253 11.469L21.0672 11.8568ZM12.1432 2.93276L11.7553 2.29085V2.29085L12.1432 2.93276ZM21.25 12C21.25 17.1086 17.1086 21.25 12 21.25V22.75C17.9371 22.75 22.75 17.9371 22.75 12H21.25ZM12 21.25C6.89137 21.25 2.75 17.1086 2.75 12H1.25C1.25 17.9371 6.06294 22.75 12 22.75V21.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75V1.25C6.06294 1.25 1.25 6.06294 1.25 12H2.75ZM15.5 14.25C12.3244 14.25 9.75 11.6756 9.75 8.5H8.25C8.25 12.5041 11.4959 15.75 15.5 15.75V14.25ZM20.4253 11.469C19.4172 13.1373 17.5882 14.25 15.5 14.25V15.75C18.1349 15.75 20.4407 14.3439 21.7092 12.2447L20.4253 11.469ZM9.75 8.5C9.75 6.41182 10.8627 4.5828 12.531 3.57467L11.7553 2.29085C9.65609 3.5593 8.25 5.86509 8.25 8.5H9.75ZM12 2.75C11.9115 2.75 11.8077 2.71008 11.7324 2.63168C11.6686 2.56527 11.6538 2.50244 11.6503 2.47703C11.6461 2.44587 11.6482 2.35557 11.7553 2.29085L12.531 3.57467C13.0342 3.27065 13.196 2.71398 13.1368 2.27627C13.0754 1.82126 12.7166 1.25 12 1.25V2.75ZM21.7092 12.2447C21.6444 12.3518 21.5541 12.3539 21.523 12.3497C21.4976 12.3462 21.4347 12.3314 21.3683 12.2676C21.2899 12.1923 21.25 12.0885 21.25 12H22.75C22.75 11.2834 22.1787 10.9246 21.7237 10.8632C21.286 10.804 20.7293 10.9658 20.4253 11.469L21.7092 12.2447Z" fill="#1C274C"/>
+                    </svg>
+                    <svg class="sun" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="6" stroke="#1C274C" stroke-width="1.5"/>
+                        <path d="M12 2V3" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M12 21V22" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M22 12L21 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M3 12L2 12" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M19.0708 4.92969L18.678 5.32252" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M5.32178 18.6777L4.92894 19.0706" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M19.0708 19.0703L18.678 18.6775" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M5.32178 5.32227L4.92894 4.92943" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </label>
+            </div>
+        </div>
     </nav>
     <!-- End of page navibation -->
 
@@ -79,7 +68,7 @@
 
                 <div class="buttons pt-3">
                    <button class="btn btn-primary rounded" onclick="window.open('https://your-link-here.com', '_blank')">HIRE ME</button>
-                   <button class="btn btn-dark rounded" onclick="window.open('https://your-link-here.com', '_blank')">DOWNLOAD CV</button>
+                   <button class="btn btn-dark rounded" onclick="window.open('https://drive.google.com/file/d/1YnpHUPO5rj9AEhUvKbC9dQvlIFOuX1qt/view?usp=drive_link', '_blank')">DOWNLOAD CV</button>
                 </div>      
 
                 <div class="socials mt-4">
@@ -97,7 +86,7 @@
         <!-- Header-widget -->
         <div class="widget">
             <div class="widget-item">
-                <h2>0</h2>
+                <h2>2</h2>
                 <p>Happy Clients</p>
             </div>
             <div class="widget-item">
@@ -120,7 +109,7 @@
                     <p class="subtitle">Full-Stack .NET Developer</p>
                     <p>I am a skilled Full-Stack .NET Developer with extensive experience in HTML, CSS, JavaScript, Bootstrap, jQuery, and React. I also have foundational knowledge in AI and a background working with VoIP systems.</p>
                     <p>Currently, I am deepening my expertise by studying advanced web development, continuously expanding my skill set to deliver innovative and efficient solutions.</p>
-                    <button class="btn btn-primary rounded mt-3" onclick="window.open('https://your-link-here.com', '_blank')">
+                    <button class="btn btn-primary rounded mt-3" onclick="window.open('https://drive.google.com/file/d/1YnpHUPO5rj9AEhUvKbC9dQvlIFOuX1qt/view?usp=drive_link', '_blank')">
                         Download CV
                       </button>                 
                 </div>
@@ -133,7 +122,7 @@
         <div class="container text-center">
             <h6 class="subtitle">Service</h6>
             <h6 class="section-title mb-4">What I Do</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p>
+            <p class="mb-5 pb-4">I’m a full-stack .NET developer with a passion for building real, impactful solutions—not just writing code. I love tackling challenges, whether it's optimizing backend performance, creating smooth front-end experiences, or integrating AI into practical applications.</p>
 
             <div class="row">
                 <div class="col-sm-6 col-md-3 mb-4">
@@ -172,31 +161,31 @@
         <div class="container text-center">
             <h6 class="subtitle">Skills</h6>
             <h6 class="section-title mb-4">Why Choose me</h6>
-            <p class="mb-5 pb-4">I’m a full-stack .NET developer with a passion for building real, impactful solutions—not just writing code. I love tackling challenges, whether it's optimizing backend performance, creating smooth front-end experiences, or integrating AI into practical applications.</p>
+            <p class="mb-5 pb-4">I specialize in transforming client ideas into structured, scalable, and well-documented software solutions. With expertise in full-stack .NET development and seamless API integrations, I ensure that applications are efficient, maintainable, and user-friendly. Whether you need a government-grade system, an enterprise-level application, or a high-performance web platform, I deliver tailored solutions that align with both business and technical requirements.</p>
 
             <div class="row text-left">
                 <div class="col-sm-6">
                     <h6 class="mb-3">Web Development</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+                        
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h6 class="mb-3">Web Design</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
+                        
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h6 class="mb-3">App Development</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                        
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <h6 class="mb-3">IT</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                       
                     </div>
                 </div>
             </div>  
@@ -372,7 +361,7 @@
                             <a href="javascript:void(0)">Read More..</a>
                         </div>
                     </div>
-                </div> --> -->
+                </div> --> 
                 <!-- <div class="col-md-4">
                     <div class="card border mb-4">
                         <img src="assets/imgs/blog-3.jpg" alt="" class="card-img-top w-100">
@@ -504,13 +493,25 @@
         // }
         
         // Updated event listener for proper animation
-        darkModeToggle.addEventListener('click', function() {
-            document.body.classList.toggle('dark-mode');
-            // const isDarkModeEnabled = document.body.classList.contains('dark-mode');
-            // localStorage.setItem('darkMode', isDarkModeEnabled ? 'enabled' : 'disabled');
-            // darkModeToggle.setAttribute('aria-pressed', isDarkModeEnabled ? 'true' : 'false');
-            // darkModeToggle.classList.toggle('theme-toggle--toggled', isDarkModeEnabled);
-        });
+        document.addEventListener("DOMContentLoaded", function () {
+    const darkModeToggle = document.getElementById("darkModeToggle");
+
+    // Check local storage for dark mode preference
+    if (localStorage.getItem("dark-mode") === "enabled") {
+        document.body.classList.add("dark-mode");
+        darkModeToggle.checked = true;
+    }
+
+    darkModeToggle.addEventListener("change", function () {
+        if (darkModeToggle.checked) {
+            document.body.classList.add("dark-mode");
+            localStorage.setItem("dark-mode", "enabled");
+        } else {
+            document.body.classList.remove("dark-mode");
+            localStorage.setItem("dark-mode", "disabled");
+        }
+    });
+});
     </script>
 </body>
 </html>
